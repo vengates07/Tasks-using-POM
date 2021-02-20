@@ -87,8 +87,7 @@ public class TestingPage extends TestBase{
 			
 			public void checkSlider() {
 				driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-				List<WebElement> s = slides;
-				for(WebElement image:s) {
+				for(WebElement image:slides) {
 					List<WebElement> img = imageTag;
 					Assert.assertTrue(img.size()==10);
 				}
@@ -97,11 +96,11 @@ public class TestingPage extends TestBase{
 			
 			public void confirmSlider() {
 				driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-				List<WebElement> s = slides;
-				
+				for(WebElement image:slides) {
 					List<WebElement> img = imageTag;
-					
-				Assert.assertTrue(img.size()==10);
+					Assert.assertTrue(img.size()==10);
+				}
+			
 			}
 			
 			
