@@ -90,7 +90,7 @@ public class TestingPage extends TestBase{
 				List<WebElement> s = slides;
 				for(WebElement image:s) {
 					List<WebElement> img = imageTag;
-					
+					Assert.assertTrue(img.size()==10);
 				}
 			
 			}
