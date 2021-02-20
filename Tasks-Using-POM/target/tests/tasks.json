@@ -1,0 +1,583 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-20T05:12:09.048Z",
+        "line": 2,
+        "name": "Checking the Description of the book",
+        "description": "",
+        "id": "arrival-image-description;checking-the-description-of-the-book",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25860000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User opens the browser and go to webpage",
+            "match": {
+              "location": "stepdef.StepDef.user_opens_the_browser_and_go_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7928000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User click shop menu",
+            "match": {
+              "location": "stepdef.StepDef.user_click_shop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3520000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on Home menu",
+            "match": {
+              "location": "stepdef.StepDef.user_click_on_Home_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 325000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "test home page has three arrivals only",
+            "match": {
+              "location": "stepdef.StepDef.test_home_page_has_three_arrivals_only()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check its only have three arrivals",
+            "match": {
+              "location": "stepdef.StepDef.check_its_only_have_three_arrivals()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5408000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks image in the arrival",
+            "match": {
+              "location": "stepdef.StepDef.user_clicks_image_in_the_arrival()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "check whether it is navigating to next page",
+            "match": {
+              "location": "stepdef.StepDef.check_whether_it_is_navigating_to_next_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5581000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "add that book into basket",
+            "match": {
+              "location": "stepdef.StepDef.add_that_book_into_basket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "check the user can add to basket",
+            "match": {
+              "location": "stepdef.StepDef.check_the_user_can_add_to_basket()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 430000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on description tab for the book",
+            "match": {
+              "location": "stepdef.StepDef.click_on_description_tab_for_the_book()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 236000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "there should be description of the book",
+            "match": {
+              "location": "stepdef.StepDef.there_should_be_description_of_the_book()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Arrival Image description",
+    "description": "",
+    "id": "arrival-image-description",
+    "keyword": "Feature",
+    "uri": "file:features/Description.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-20T05:12:58.738Z",
+        "line": 2,
+        "name": "Checking the arrivals navigation",
+        "description": "",
+        "id": "images-in-arrival-should-navigate;checking-the-arrivals-navigation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9435000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User opens the browser and go to webpage",
+            "match": {
+              "location": "stepdef.StepDef.user_opens_the_browser_and_go_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-0BGEA6NC\u0027, ip: \u0027192.168.1.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_282\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\vengates\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4527cb9dd7550a6852b30f4c5fb5bdcd\n*** Element info: {Using\u003dxpath, value\u003d//a[contains(text(),\u0027Shop\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.click(Unknown Source)\r\n\tat page.ImageDescription.clickShop(ImageDescription.java:62)\r\n\tat stepdef.StepDef.user_click_shop_menu(StepDef.java:22)\r\n\tat ✽.User click shop menu(file:///C:/Users/vengates/Documents/spring-tool/Tasks-Using-POM/features/Navigate.feature:4)\r\n",
+              "duration": 58000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User click shop menu",
+            "match": {
+              "location": "stepdef.StepDef.user_click_shop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user click on Home menu",
+            "match": {
+              "location": "stepdef.StepDef.user_click_on_Home_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "test home page has three arrivals only",
+            "match": {
+              "location": "stepdef.StepDef.test_home_page_has_three_arrivals_only()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "check its only have three arrivals",
+            "match": {
+              "location": "stepdef.StepDef.check_its_only_have_three_arrivals()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks image in the arrival",
+            "match": {
+              "location": "stepdef.StepDef.user_clicks_image_in_the_arrival()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "check whether it is navigating to next page",
+            "match": {
+              "location": "stepdef.StepDef.check_whether_it_is_navigating_to_next_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "add that book into basket",
+            "match": {
+              "location": "stepdef.StepDef.add_that_book_into_basket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "check the user can add to basket",
+            "match": {
+              "location": "stepdef.StepDef.check_the_user_can_add_to_basket()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Images in arrival should navigate",
+    "description": "",
+    "id": "images-in-arrival-should-navigate",
+    "keyword": "Feature",
+    "uri": "file:features/Navigate.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-20T05:13:08.295Z",
+        "line": 2,
+        "name": "Checking the reviews of the images",
+        "description": "",
+        "id": "arrival-image-review;checking-the-reviews-of-the-images",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7032000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User opens the browser and go to webpage",
+            "match": {
+              "location": "stepdef.StepDef.user_opens_the_browser_and_go_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-0BGEA6NC\u0027, ip: \u0027192.168.1.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_282\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\vengates\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0dff1bb01f6be2ae80fd0d48766359c7\n*** Element info: {Using\u003dxpath, value\u003d//a[contains(text(),\u0027Shop\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.click(Unknown Source)\r\n\tat page.ImageDescription.clickShop(ImageDescription.java:62)\r\n\tat stepdef.StepDef.user_click_shop_menu(StepDef.java:22)\r\n\tat ✽.User click shop menu(file:///C:/Users/vengates/Documents/spring-tool/Tasks-Using-POM/features/Review.feature:4)\r\n",
+              "duration": 16000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "User click shop menu",
+            "match": {
+              "location": "stepdef.StepDef.user_click_shop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user click on Home menu",
+            "match": {
+              "location": "stepdef.StepDef.user_click_on_Home_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "test home page has three arrivals only",
+            "match": {
+              "location": "stepdef.StepDef.test_home_page_has_three_arrivals_only()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "check its only have three arrivals",
+            "match": {
+              "location": "stepdef.StepDef.check_its_only_have_three_arrivals()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks image in the arrival",
+            "match": {
+              "location": "stepdef.StepDef.user_clicks_image_in_the_arrival()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "check whether it is navigating to next page",
+            "match": {
+              "location": "stepdef.StepDef.check_whether_it_is_navigating_to_next_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "add that book into basket",
+            "match": {
+              "location": "stepdef.StepDef.add_that_book_into_basket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "check the user can add to basket",
+            "match": {
+              "location": "stepdef.StepDef.check_the_user_can_add_to_basket()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user click the review",
+            "match": {
+              "location": "stepdef.StepDef.user_click_the_review()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "check the user able to see reviews",
+            "match": {
+              "location": "stepdef.StepDef.check_the_user_able_to_see_reviews()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Arrival Image review",
+    "description": "",
+    "id": "arrival-image-review",
+    "keyword": "Feature",
+    "uri": "file:features/Review.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-20T05:13:15.363Z",
+        "line": 2,
+        "name": "Checking three arrivals",
+        "description": "",
+        "id": "home-page-with-three-arrivals-only;checking-three-arrivals",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22149000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User opens the browser and go to webpage",
+            "match": {
+              "location": "stepdef.StepDef.user_opens_the_browser_and_go_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4577000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User click shop menu",
+            "match": {
+              "location": "stepdef.StepDef.user_click_shop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-0BGEA6NC\u0027, ip: \u0027192.168.1.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_282\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\vengates\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52284}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 58addb2475d21abad28ce889da9662de\n*** Element info: {Using\u003dxpath, value\u003d//a[contains(text(),\u0027Home\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.click(Unknown Source)\r\n\tat page.ImageDescription.clickHome(ImageDescription.java:67)\r\n\tat stepdef.StepDef.user_click_on_Home_menu(StepDef.java:27)\r\n\tat ✽.user click on Home menu(file:///C:/Users/vengates/Documents/spring-tool/Tasks-Using-POM/features/ThreeArrivals.feature:5)\r\n",
+              "duration": 4159000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user click on Home menu",
+            "match": {
+              "location": "stepdef.StepDef.user_click_on_Home_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "test home page has three arrivals only",
+            "match": {
+              "location": "stepdef.StepDef.test_home_page_has_three_arrivals_only()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "check its only have three arrivals",
+            "match": {
+              "location": "stepdef.StepDef.check_its_only_have_three_arrivals()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home page with three arrivals only",
+    "description": "",
+    "id": "home-page-with-three-arrivals-only",
+    "keyword": "Feature",
+    "uri": "file:features/ThreeArrivals.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-20T05:13:46.326Z",
+        "line": 2,
+        "name": "Checking three slides",
+        "description": "",
+        "id": "home-page-with-three-slide-only;checking-three-slides",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-0BGEA6NC\u0027, ip: \u0027192.168.1.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_282\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\vengates\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52351}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: eb4d1eacfc3b0007fdae4bc57d35ebec\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat base.TestBase.init(TestBase.java:56)\r\n\tat page.ImageDescription.\u003cinit\u003e(ImageDescription.java:56)\r\n\tat stepdef.StepDef.user_opens_the_browser_and_go_to_webpage(StepDef.java:17)\r\n\tat ✽.User opens the browser and go to webpage(file:///C:/Users/vengates/Documents/spring-tool/Tasks-Using-POM/features/ThreeSliders.feature:3)\r\n",
+              "duration": 2732000000,
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "User opens the browser and go to webpage",
+            "match": {
+              "location": "stepdef.StepDef.user_opens_the_browser_and_go_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User click shop menu",
+            "match": {
+              "location": "stepdef.StepDef.user_click_shop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user click on Home menu",
+            "match": {
+              "location": "stepdef.StepDef.user_click_on_Home_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "test home page has three slides only",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "check its only have three slides",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home page with three slide only",
+    "description": "",
+    "id": "home-page-with-three-slide-only",
+    "keyword": "Feature",
+    "uri": "file:features/ThreeSliders.feature",
+    "tags": []
+  }
+]
